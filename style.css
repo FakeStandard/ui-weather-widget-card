@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Source+Code+Pro&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-family: "Source Code Pro", monospace;
+}
+
+.weather {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherCard {
+    width: 100%;
+}
+
+.title {
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+.temperature {
+    margin-bottom: 2rem;
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+
+.subTitle {
+    height: 3.5rem;
+    color: #555151;
+}
+
+.subInfo {
+    margin-top: 1.5rem;
+}
+
+.icon {
+    position: absolute;
+}
+
+.icon img {
+    position: relative;
+    top: -90px;
+    right: -210px;
+    width: 9rem;
+}
